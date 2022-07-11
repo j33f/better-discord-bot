@@ -41,6 +41,22 @@ const bot = new DiscordBot(options);
 bot.start();
 ```
 
+### Enviorment Variables
+
+As this package is using `dotenv` to load the `.env` file, you can set the following minimal enviorment variables:
+
+```shell
+PUBLIC_KEY=""
+APP_ID=""
+BOT_TOKEN=""
+CLIENT_ID=""
+DEV_MODE=on
+GUILD_ID=""
+````
+
+**Note:** The `DEV_MODE` on is useful to test the commands, since when it is not in dev mode, Discord performs a command cache which can be very long.
+As long as you use your bot in a dev environment and onto only one Discord server (aka guild), it is pretty useful to keep the `DEV_MODE` on.
+
 ### Commands
 
 You can add commands to the bot by adding them to the `commandsDirPath` option. Or add them before it starts with the `addCommand` method of the DiscordBot class.
