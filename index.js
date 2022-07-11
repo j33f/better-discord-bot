@@ -1,3 +1,4 @@
+'use strict';
 const DiscordBot = require('./lib/DiscordBot.class');
 const Command = require('./lib/Command.class');
 const SoundManager = require('./lib/SoundManager.class');
