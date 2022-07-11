@@ -3,7 +3,7 @@
   "description": "A module to create and manage a discord bot",
   "license": "Apache-2.0",
   "main": "index.js",
-  "name": "discord-bot-lib",
+  "name": "better-discord-bot",
   "private": false,
   "version": "0.0.1",
   "dependencies": {
