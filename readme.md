@@ -1,4 +1,4 @@
-# better-discord-bot
+# unicorn-discord-bot
 
 > A simple but robust and highly customizable Discord bot.
 
