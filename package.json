@@ -15,5 +15,15 @@
     "dotenv": "^16.0.1",
     "fast-glob": "^3.2.11",
     "require-glob": "^4.1.0"
-  }
+  },
+  "repository": {
+    "url": "https://github.com/j33f/better-discord-bot",
+    "type": "git"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ]
 }
