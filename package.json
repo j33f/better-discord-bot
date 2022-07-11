@@ -25,5 +25,15 @@
       "type": "Apache-2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     }
+  ],
+  "keywords": [
+    "discord",
+    "bot",
+    "discordjs",
+    "discord.js",
+    "voice",
+    "music",
+    "voice channel",
+    "slash command"
   ]
 }

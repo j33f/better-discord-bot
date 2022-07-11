@@ -5,15 +5,15 @@
 ## Installation
 
 ```shell
-npm install better-discord-bot
+npm install unicorn-discord-bot
 
-yarn install better-discord-bot
+yarn install unicorn-discord-bot
 ```
 
 ## Usage
 
 ```javascript
-const { DiscordBot, Intents } = require('better-discord-bot');
+const { DiscordBot, Intents } = require('unicorn-discord-bot');
 const { join } = require('path');
 
 // get all possible intents
@@ -71,7 +71,7 @@ By default, all commands can be triggered via these three behaviors. You can cha
 Here is a simple example of a ping command:
 
 ```javascript
-const { Command } = require('better-discord-bot');
+const { Command } = require('unicorn-discord-bot');
 
 const ping = new Command({
   command: 'ping',
@@ -97,7 +97,7 @@ This implementation can natively play webm formatted files.
 Here is an example of a play sound command using the sound manager:
 
 ```javascript
-const { Command, SoundManager } = require('better-discord-bot');
+const { Command, SoundManager } = require('unicorn-discord-bot');
 const { join } = require('path');
 
 const defaultVolumes = {
