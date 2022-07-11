@@ -5,7 +5,7 @@
   "main": "index.js",
   "name": "better-discord-bot",
   "private": false,
-  "version": "0.0.8",
+  "version": "0.0.9",
   "dependencies": {
     "@discordjs/builders": "^0.15.0",
     "@discordjs/rest": "^0.5.0",
