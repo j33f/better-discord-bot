@@ -5,7 +5,6 @@ const vocChanUtils = require('./lib/utils/vocChan');
 
 const { Intents } = require('discord.js');
 
-
 module.exports = {
   DiscordBot,
   Command,
