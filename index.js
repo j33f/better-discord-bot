@@ -1,17 +1,9 @@
-'use strict';
-const DiscordBot = require('./lib/DiscordBot.class');
-const Command = require('./lib/Command.class');
-const SoundManager = require('./lib/SoundManager.class');
-const vocChanUtils = require('./lib/utils/vocChan');
-const membersUtils = require('./lib/utils/membersAndRoles');
+import { GatewayIntentBits } from 'discord.js';
+import DiscordBot from './lib/DiscordBot.js';
+import SoundManager from './lib/SoundManager.js';
 
-const { Intents } = require('discord.js');
-
-module.exports = {
+export {
   DiscordBot,
-  Command,
+  GatewayIntentBits as DiscordGatewayIntentBits,
   SoundManager,
-  vocChanUtils,
-  membersUtils,
-  Intents
 };

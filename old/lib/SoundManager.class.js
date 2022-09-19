@@ -1,10 +1,10 @@
 'use strict';
-const { joinVocalChannel, getVolume } = require('./utils/vocChan');
-const { createAudioPlayer, AudioPlayerStatus, VoiceConnectionStatus, StreamType, createAudioResource } = require('@discordjs/voice');
-const { join, basename } = require('path');
 const { createReadStream } = require('fs');
-const glob = require('fast-glob');
+const { join, basename } = require('path');
+const { createAudioPlayer, AudioPlayerStatus, VoiceConnectionStatus, StreamType, createAudioResource } = require('@discordjs/voice');
 const { MessageActionRow, MessageButton } = require('discord.js');
+const glob = require('fast-glob');
+const { joinVocalChannel, getVolume } = require('./utils/vocChan');
 
 class SoundManager {
   /**
@@ -72,7 +72,7 @@ class SoundManager {
     this.soundName = soundName;
     this.volume = volume || getVolume(this.interaction, soundName, this.defaultVolumes);
 
-    const filePath = join(this.filesDirPath, soundName + '.webm');
+    const filePath = join(this.filesDirPath, `${soundName}.webm`);
     const options = {
       inputType: StreamType.WebmOpus,
       inlineVolume: true,
