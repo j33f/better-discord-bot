@@ -150,5 +150,3 @@ All of these events are emitted with the same arguments as the ones used interna
 
 You can get inspired or see what can be done within the [example](example) folder.
 To use the example bot, you need to create a `.env` file in the root of the example folder with the information you get when registering your bot on the [Discord Developer Portal](https://discord.com/developers/applications).
-
-```shell
